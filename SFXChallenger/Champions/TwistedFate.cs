@@ -775,7 +775,7 @@ namespace SFXChallenger.Champions
                 {
                     if (Q.Level == 0)
                     {
-                        return new List<CardColor> { CardColor.Blue };
+                        return new List<CardColor> { CardColor.blue };
                     }
                     gold++;
                     if (target.Distance(Player) > W.Range * 0.8f)
@@ -830,7 +830,7 @@ namespace SFXChallenger.Champions
                 {
                     if (Q.Level == 0)
                     {
-                        return new List<CardColor> { CardColor.Blue };
+                        return new List<CardColor> { CardColor.Gold };
                     }
                     var distance = target.Distance(Player);
                     var damage = ItemManager.CalculateComboDamage(target) - target.HPRegenRate * 2f - 10;
